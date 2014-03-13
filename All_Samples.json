@@ -862,9 +862,16 @@
  "EXIF Image Viewer": {
      "desc": "How to load an image with exif orientation data and display it rotated according",
      "url": "https://github.com/blackberry/Cascades-Community-Samples/tree/master/ExifImageViewer",
-     "repo": "Cascades-Samples",
+     "repo": "Cascades-Community-Samples",
      "repourl": "http://github.com/blackberry/Cascades-Community-Samples",
      "tags": [ "native", "cascades", "exif", "bb10", "camera" ]
+ },
+ "Expressgur": {
+     "desc": "BlackBerry Express sample plugin that pulls images from Deviant Art",
+     "url": "https://github.com/blackberry/Cascades-Community-Samples/tree/master/expressgur",
+     "repo": "Cascades-Community-Samples",
+     "repourl": "http://github.com/blackberry/Cascades-Community-Samples",
+     "tags": [ "native", "cascades", "Express", "bb10", "Deviant Art", "plugin" ]
  },
  "ExtractZipFile(bb10,plugin)": {
      "desc": "WebWorks BlackBerry 10 and Apache Cordova Plugin to unzip files",
@@ -2360,6 +2367,13 @@
      "repourl": "http://github.com/blackberry/Qt2Cascades-Samples",
      "note": "<p>Documentation of the samples is in the <a href='http://blackberry.github.com/Qt2Cascades-Samples/docs/'>Local Pages</a>",
      "tags": [ "native", "client", "bb10", "xml", "qt", "cascades", "lint", "stream" ]
+ },
+ "QtBridge(bb10,plugin)": {
+     "desc": "WebWorks BlackBerry 10 and Apache Cordova Plugin to access native Qt objects' properties, signals and slots",
+     "url": "http://github.com/blackberry/WebWorks-Community-APIs/tree/master/BB10-Cordova/QtBridge",
+     "repo": "WebWorks-Community-APIs",
+     "repourl": "http://github.com/blackberry/WebWorks-Community-APIs",
+     "tags": [ "html5", "client", "bb10", "qt", "plugin", "cordova", "signals", "slots" ]
  },
  "quotes": {
      "desc": "List and SqlDataAccess",
