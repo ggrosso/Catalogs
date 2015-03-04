@@ -39,13 +39,6 @@
      "repourl": "http://github.com/blackberry/Cascades-Samples",
      "tags": [ "native", "client", "bb10", "cascades", "pim" ]
  },
- "ActiveFrameSample(AIR,bb10)": {
-     "desc": "How to create an Active Frame when your App is minimized",
-     "url": "https://github.com/blackberry/Samples-for-AIR/tree/master/ActiveFrameSample",
-     "repo": "Samples-for-AIR",
-     "repourl": "http://github.com/blackberry/Samples-for-AIR",
-     "tags": [ "air", "client", "bb10", "activeframe" ]
- },
  "addressbook": {
      "desc": "How to implement a simple address book application",
      "url": "https://github.com/blackberry/Cascades-Samples/tree/master/addressbook",
@@ -82,6 +75,13 @@
      "repourl": "http://github.com/blackberry/Cascades-Community-Samples",
      "tags": [ "native", "crypto", "aes", "certicom", "bb10", "qt", "cascades" ]
  },
+ "AirHockey": {
+     "desc": "Weekend hackathon project - an air hockey playing robot using a robotic arm, an Arduino and a Z30.",
+     "url": "https://github.com/blackberry/Cascades-Community-Samples/tree/master/airHockey",
+     "repo": "Cascades-Community-Samples",
+     "repourl": "http://github.com/blackberry/Cascades-Community-Samples",
+     "tags": [ "native", "camera", "airhockey", "arduino", "bluetooth", "bb10", "qt", "cascades" ]
+ },
  "Analytics": {
      "desc": "Sample from the Analytics SDK",
      "url": "https://github.com/blackberry/Samples-for-Java/tree/master/Analytics",
@@ -102,6 +102,14 @@
      "repo": "BB10-WebWorks-Community-Samples",
      "repourl": "http://github.com/blackberry/BB10-WebWorks-Community-Samples",
      "tags": [ "html5", "script", "tool", "bbos", "bb10", "tablet" ]
+ },
+ "AnnualLeave": {
+     "desc": "A Sample Enterprise Annual Leave / Vacation application (BETA)",
+     "url": "https://github.com/blackberry/Cascades-Community-Samples/tree/master/AnnualLeave",
+     "repo": "Cascades-Community-Samples",
+     "repourl": "http://github.com/blackberry/Cascades-Community-Samples",
+     "note": "<p>The purpose of this application is to add some real code to the theory that we outlined in these blog articles and videos for a robust enterprise applicatin architecture. If you haven't read or listened to these then now might be a good time. They explain the core architecture upon which this BETA sample application is based. <a href='http://devblog.blackberry.com/2014/02/a-flexible-architecture-for-enterprise-mobile-applications-part-1/'>A Flexible Architecture for Enterprise Mobile Applications? - Part 1</a>, <a href='http://devblog.blackberry.com/2014/02/a-flexible-architecture-for-enterprise-mobile-applications-part-2/'>A Flexible Architecture for Enterprise Mobile Applications? - Part 2</a>, <a href='http://devblog.blackberry.com/2014/02/a-flexible-project-structure-for-enterprise-mobile-applications-part-three/'>A Flexible Project Structure for Enterprise Mobile Applications? - Part 3</a>, <a href='http://www.youtube.com/watch?v=UYhbQBp72sQ'>VIDEO: A Flexible Architecture for Enterprise Mobile Applications?</a>, <a href='http://www.youtube.com/watch?v=e37vUIv8hMw'>VIDEO: A Flexible Project Structure for Enterprise Mobile Applications?</a></p>",
+     "tags": [ "native", "cascades", "client", "enterprise", "bb10" ]
  },
  "Ant Build Script (Cordova)": {
      "desc": "Ant build Script for WebWorks applications using Apache Cordova/PhoneGap for BlackBerry 10 devices",
@@ -177,7 +185,7 @@
      "tags": [ "native", "cascades", "client", "bluetooth", "bb10", "mqtt" ]
  },
  "AutoTrak": {
-     "desc": "Sample BlackBerry 10 Native insurance mobile application to review submitted insurance claims by individuals. Additional project details are contained in the project read me. https://github.com/hjung/BES10-Cascades/blob/master/AutoTrak/README.md",
+     "desc": "Sample BlackBerry 10 Native insurance mobile application to review submitted insurance claims by individuals. Additional project details are contained in the project read me. https://github.com/blackberry/BES10-Cascades/tree/master/AutoTrak/README.md",
      "url": "https://github.com/blackberry/BES10-Cascades/tree/master/AutoTrak",
      "repo": "BES10-Cascades",
      "repourl": "https://github.com/blackberry/BES10-Cascades",
@@ -641,14 +649,6 @@
      "repourl": "http://github.com/blackberry/BB10-WebWorks-Community-Samples",
      "tags": [ "html5", "webworks", "bb10", "context", "menu" ]
  },
- "cowbell": {
-     "desc": "Basic Sound Handling",
-     "url": "https://github.com/blackberry/Cascades-Samples/tree/master/cowbell",
-     "repo": "Cascades-Samples",
-     "repourl": "http://github.com/blackberry/Cascades-Samples",
-     "note": "<p>Basic rotation animations, AbsoluteLayout, and OpenAL sound</p><p>And, if you have never seen it, check the SNL sketch on <a href='http://en.wikipedia.org/wiki/More_cowbell'>More Cowbell</a></p>",
-     "tags": [ "native", "client", "bb10", "cascades", "audio", "openal", "absolutelayout" ]
- },
  "Channels": {
      "desc": "How two different threads can communicate sending events through channels. Uses LocationData as example",
      "url": "https://github.com/blackberry/NDK-Samples/tree/master/Channels",
@@ -679,13 +679,6 @@
      "repourl": "http://github.com/blackberry/Cascades-Community-Samples",
      "note": "<p>The purpose of this application is to demonstrate how to interface to a Bluetooth Low Energy device that supports the Cycling Speed and Cadence Profile as defined by the Bluetooth SIG. This is the type of device that cyclists typically attach to their cycles to allow them to monitor information such as wheel and peddle revolutions and timings.</p>",
      "tags": [ "native", "cascades", "client", "bluetooth", "bb10" ]
- },
- "CSSSample(AIR,bb10)": {
-     "desc": "How to use CSS to manipulate objects without writing ActionScript code",
-     "url": "https://github.com/blackberry/Samples-for-AIR/tree/bb10/CSSSample",
-     "repo": "Samples-for-AIR",
-     "repourl": "http://github.com/blackberry/Samples-for-AIR",
-     "tags": [ "air", "client", "bb10", "css" ]
  },
  "CubeRotate": {
      "desc": "How to create a 3D multi-colored cube using OpenGL ES",
@@ -996,13 +989,13 @@
      "repourl": "http://github.com/blackberry/NDK-Samples",
      "tags": [ "native", "client", "bb10", "gaming" ]
  },
- "Geocoding(AIR,ext,bb10)": {
-     "desc": "An AIR Native Extension using the geo_search library from the NDK to provide geo-coding and reverse geo-coding capabilities",
-     "url": "http://github.com/blackberry/Community-APIs-for-AIR/tree/master/BlackBerry10/Geocoding",
-     "repo": "Community-APIs-for-AIR",
-     "repourl": "http://github.com/blackberry/Community-APIs-for-AIR",
-     "note": "See the (AIR,ext,pb) entry",
-     "tags": [ "air", "client", "bb10", "extension", "ext-air", "location" ]
+ "GattServerSample": {
+     "desc": "Demonstrates how to develop a BlackBerry 10 application that hosts a Bluetooth Low Enery GATT Service.",
+     "url": "http://github.com/blackberry/Cascades-Community-Samples/tree/master/gattserversample",
+     "repo": "Cascades-Community-Samples",
+     "repourl": "http://github.com/blackberry/Cascades-Community-Samples",
+     "note": "<p>The purpose of this project is to demonstrate how to develop an application for BlackBerry 10 which is capable of hosting a Bluetooth Low Enery GATT Service.</p><p>The GATT service itself is a simple one that sends a stream of random numbers, one per second, to any client that subscribes to the service's Notifications.</p><p>There are two applications in this sample:</p><ul><li>An application that acts as a GATT Server, and, for convenience;</li><li>An application that acts as a GATT Client to the GATT server application.</li></ul>",
+     "tags": [ "native", "cascades", "client", "bluetooth", "bb10", "gatt" ]
  },
  "GeoLocation": {
      "desc": "Display current location data",
@@ -1176,6 +1169,14 @@
      "repourl": "https://github.com/blackberry/Cascades-Community-Samples",
      "tags": [ "cascades", "advertise", "monetize"]
  },
+ "HostCardEmulation": {
+     "desc": "Using the Host Card Emulation (HCE) NFC APIs on BlackBerry 10",
+     "url": "https://github.com/blackberry/Cascades-Community-Samples/tree/master/hostcardemulation",
+     "repo": "Cascades-Community-Samples",
+     "repourl": "http://github.com/blackberry/Cascades-Community-Samples",
+     "note": "<p>The purpose of this application is to demonstrate how to develop an application for BlackBerry 10 which uses Near Field Communication (NFC) Host Card Emulation (HCE) that is capable of responding to a subset of EMV(tm) commands from a Point of Sale Terminal.</p>",
+     "tags": [ "native", "client", "nfc", "bb10", "cascades", "invocation", "hce" ]
+ },
  "HttpProxy": {
      "desc": "Retrieve the proxy information of the device, and query a URL",
      "url": "https://github.com/blackberry/NDK-Samples/tree/master/HttpProxy",
@@ -1248,14 +1249,6 @@
      "repourl": "http://github.com/blackberry/Cascades-Samples",
      "tags": [ "native", "client", "bb10", "cascades", "sensor", "accelerometer" ]
  },
- "ImageSaver(AIR,ext,bb10)": {
-     "desc": "A AIR Native Extension that will save a BitmapData instance to a file on the disk via native C code using libimg",
-     "url": "http://github.com/blackberry/Community-APIs-for-AIR/tree/master/BlackBerry10/ImageSaver",
-     "repo": "Community-APIs-for-AIR",
-     "repourl": "http://github.com/blackberry/Community-APIs-for-AIR",
-     "note": "See the (AIR,ext,pb) entry",
-     "tags": [ "air", "client", "bb10", "extension", "ext-air", "media" ]
- },
  "ImageWebView": {
      "desc": "Sample for Hybrid Application development",
      "url": "https://github.com/blackberry/Cascades-Samples/tree/master/ImageWebView",
@@ -1321,6 +1314,22 @@
      "warning": "This seems to be the same sample as in Cascades-Community-Samples.  Will be removed from there afer confirming",
      "tags": [ "native", "client", "invocation", "bb10", "cascades" ]
  },
+ "InvokeWorkCoreApps": {
+     "desc": "The Invoke Work Core Apps example demonstrates how to invoke a set of core apps in the work space by using the Invocation Framework",
+     "url": "https://github.com/blackberry/BES10-Cascades/tree/master/InvokeWorkCoreApps",
+     "repo": "BES10-Cascades",
+     "repourl": "https://github.com/blackberry/BES10-Cascades",
+	    "note": "<p>The core apps that are invoked in this sample are Enterprise Instant Messaging, Adobe Reader, Browser and Phone</p>",
+     "tags": [ "enterprise", "native", "Browser", "Instant Messaging", "Invocation", "bb10", "Adobe Reader", "Phone", "cascades", "bes"]
+ },
+ "InvokeWorkDrives": {
+     "desc": "The Invoke Work Core Drives example demonstrates how to invoke the WorkDrives app using Webworks and the Invocation Framework",
+     "url": "https://github.com/blackberry/BES10-Cascades/tree/master/InvokeWorkDrives",
+     "repo": "BES10-WebWorks",
+     "repourl": "https://github.com/blackberry/BES10-WebWorks",
+	    "note": "<p>The Work Drives app is invoked in this sample</p>",
+     "tags": [ "enterprise", "Work Drives", "WebWorks", "Invocation", "bb10", "bes10"]
+ },
  "JDE-Samples.client": {
      "desc": "A collection of samples included in the BlackBerry JDE.  There is one branch per JDE release",
      "url": "https://github.com/blackberry/JDE-Samples/tree/master/com/rim/samples/device",
@@ -1354,14 +1363,6 @@
      "repourl": "http://github.com/blackberry/Cascades-Samples",
      "tags": [ "native", "client", "bb10", "cascades", "json", "storage" ]
  },
- "kakel": {
-     "desc": "Dynamic UI",
-     "url": "https://github.com/blackberry/Cascades-Samples/tree/master/kakel",
-     "repo": "Cascades-Samples",
-     "repourl": "http://github.com/blackberry/Cascades-Samples",
-     "note": "<p>Some decorative and interaction elements in QML, while actual game board and logics is in C++</p>",
-     "tags": [ "native", "client", "bb10", "cascades", "qml" ]
- },
  "Keyboard": {
      "desc": "How to handle key presses on the virtual keyboard",
      "url": "https://github.com/blackberry/NDK-Samples/tree/master/Keyboard",
@@ -1385,6 +1386,14 @@
      "note": "Improved version to that from WebWorks-Community-Samples",
      "tags": [ "html5", "webworks", "bb10", "bbm" ]
  },
+  "LDAPSearch": {
+     "desc": "A demonstration how a middleware NodeJS component and a WebWorks Client can do LDAP searches throiugh a corporate directory.",
+     "url": "https://github.com/blackberry/BES10-Cascades/tree/master/ldap-search",
+     "repo": "BES10-WebWorks",
+     "repourl": "https://github.com/blackberry/BES10-WebWorks",
+	    "note": "<p>Creating REST API with NodeJS and using it with a WebWorks client</p>",
+     "tags": [ "enterprise", "nodjeJS", "WebWorks", "REST", "API", "bb10", "bes10"]
+ },
  "led": {
      "desc": "The LED API",
      "url": "https://github.com/blackberry/Cascades-Samples/tree/master/led",
@@ -1406,22 +1415,6 @@
      "repo": "BB10-WebWorks-Community-Samples",
      "repourl": "https://github.com/blackberry/BB10-WebWorks-Community-Samples",
      "tags": [ "html5", "webworks", "bb10", "Built-For-BlackBerry", "Payment Services" ]
- },
- "lightningcrossfadecpp": {
-     "desc": "Lightning Crossfade for Text and Image, usinc C++",
-     "url": "https://github.com/blackberry/Cascades-Samples/tree/master/lightningcrossfadecpp",
-     "repo": "Cascades-Samples",
-     "repourl": "http://github.com/blackberry/Cascades-Samples",
-     "note": "<p>Add images to a UI, use layouts and add a slider attached to it.</p><p>Do this in C++</p>",
-     "tags": [ "native", "client", "bb10", "cascades", "c++", "events" ]
- },
- "lightningcrossfadeqml": {
-     "desc": "Lightning Crossfade for Text and Image, usinc QML",
-     "url": "https://github.com/blackberry/Cascades-Samples/tree/master/lightningcrossfadecpp",
-     "repo": "Cascades-Samples",
-     "repourl": "http://github.com/blackberry/Cascades-Samples",
-     "note": "<p>Add images to a UI, use layouts and add a slider attached to it.</p><p>Do this in QML</p>",
-     "tags": [ "native", "client", "bb10", "cascades", "qml", "events" ]
  },
  "ListGroupData": {
      "desc": "Example of runtime manipulation of GroupDataModel",
@@ -1518,6 +1511,20 @@
      "repo": "Cordova-Samples",
      "repourl": "https://github.com/blackberry/Cordova-Samples",
      "tags": [ "html5", "audio", "bb10", "cordova", "sequencer", "plugin" ]
+ },
+ "Macadamian_ExpenseReport": {
+     "desc": "Sample BlackBerry 10 Native expense report application for approving expenses.  Additional project details are contained in the project read me. https://github.com/blackberry/BES10-Cascades/tree/master/ExpenseReport/README.md",
+     "url": "https://github.com/blackberry/BES10-Cascades/tree/master/ExpenseReport",
+     "repo": "BES10-Cascades",
+     "repourl": "https://github.com/blackberry/BES10-Cascades",
+     "tags": [ "enterprise", "client", "bb10", "expensereport", "cascades", "native" ]
+ },
+ "Macadamian_SubmitExpense": {
+     "desc": "Sample BlackBerry 10 Native expense report application for submitting expenses.  Additional project details are contained in the project read me. https://github.com/blackberry/BES10-Cascades/tree/master/SubmitExpense/README.md",
+     "url": "https://github.com/blackberry/BES10-Cascades/tree/master/SubmitExpense",
+     "repo": "BES10-Cascades",
+     "repourl": "https://github.com/blackberry/BES10-Cascades",
+     "tags": [ "enterprise", "client", "bb10", "submitexpense", "cascades", "native" ]
  },
  "MailAttachment(bbos,ext)": {
      "desc": "WebWorks Java-based Smartphone extension to send an email with an attachment",
@@ -1647,7 +1654,7 @@
      "url": "https://github.com/blackberry/Cascades-Samples/tree/master/networking_ssl",
      "repo": "Cascades-Samples",
      "repourl": "http://github.com/blackberry/Cascades-Samples",
-     "tags": [ "native", "client", "bb10", "cascades", "networking" "ssl" ]
+     "tags": [ "native", "client", "bb10", "cascades", "networking", "ssl" ]
  },
  "NetworkStatus": {
      "desc": "How to retrieve the network status of the device",
@@ -1885,6 +1892,13 @@
      "repo": "Cascades-Samples",
      "tags": [ "native", "cascades", "bb10", "list", "datamodel" ]
  },
+ "PantherUI": {
+     "desc": "The PantherUI is a collection of JavaScript modules and templates for creating responsive UIs for desktop and mobile web apps.",
+     "url": "https://github.com/blackberry/BB10-WebWorks-Community-Samples/tree/WebWorks-1.0/PantherUI",
+     "repo": "BB10-WebWorks-Community-Samples",
+     "repourl": "https://github.com/blackberry/BB10-WebWorks-Community-Samples",
+     "tags": [ "html5", "carousel", "responsive", "webworks", "bb10" ]
+ },
  "PasswordSample": {
      "desc": "How to use some of  the Blackberry 10 security APIs",
      "url": "https://github.com/blackberry/Cascades-Community-Samples/tree/master/PasswordSample",
@@ -1945,20 +1959,6 @@
      "repourl": "http://github.com/blackberry/Cascades-Samples",
      "note": "<p>How to use the Cascades multimedia library with the Camera, take a picture, manipulate the image to be grayscale, and add an image over another image",
      "tags": [ "native", "client", "bb10", "cascades", "camera", "image" ]
- },
- "PhotoEditor(AIR,bb10)": {
-     "desc": "Shows how to create and interact with Composer, Previewer, and Picker Cards",
-     "url": "https://github.com/blackberry/Samples-for-AIR/tree/bb10/PhotoViewer",
-     "repo": "Samples-for-AIR",
-     "repourl": "http://github.com/blackberry/Samples-for-AIR",
-     "tags": [ "air", "client", "bb10", "camera", "media" ]
- },
- "PhotoViewer(AIR,bb10)": {
-     "desc": "Uses a custom Viewer to display a random image from the shared camera folder",
-     "url": "https://github.com/blackberry/Samples-for-AIR/tree/bb10/PhotoViewer",
-     "repo": "Samples-for-AIR",
-     "repourl": "http://github.com/blackberry/Samples-for-AIR",
-     "tags": [ "air", "client", "bb10", "camera", "media" ]
  },
  "PictureWall": {
      "desc": "Control a collection of BlackBerry PlayBooks to display one or more images",
@@ -2088,13 +2088,6 @@
      "repourl": "http://github.com/blackberry/Cascades-Samples",
      "note": "PushCollector on 10.2 uses a headless app",
      "tags": [ "native", "client", "bb10", "cascades", "push", "sqlite", "headless" ]
- },
- "PushSampleApp(AIR,bb10)": {
-     "desc": "A BlackBerry 10 Adobe AIR App that can receive Push Events",
-     "url": "https://github.com/blackberry/Samples-for-AIR/tree/master/PushSampleApp",
-     "repo": "Samples-for-AIR",
-     "repourl": "http://github.com/blackberry/Samples-for-AIR",
-     "tags": [ "air", "client", "bb10", "push" ]
  },
  "Qt2Cascades.BroadcastReceiver": {
      "desc": "Adaptations of the Network samples of the <a href='http://doc.qt.nokia.com/4.7-snapshot/all-examples.html'>Qt Example Projects</a> to Cascades",
@@ -2435,29 +2428,6 @@
      "repourl": "http://github.com/blackberry/Cascades-Samples",
      "tags": [ "native", "client", "bb10", "cascades", "email" ]
  },
- "SampleApplication(AIR,pb)": {
-     "desc": "An App that uses the Adobe AIR SDK for PlayBook and the SampleLibrary",
-     "url": "https://github.com/blackberry/Samples-for-AIR/tree/playbook/SampleApp",
-     "repo": "Samples-for-AIR",
-     "repourl": "http://github.com/blackberry/Samples-for-AIR",
-     "tags": [ "air", "client", "playbook" ]
- },
- "SampleBPSANE(AIR,ext,bb10)": {
-     "desc": "A Sample AIR Native Extension using the BPS system that uses the Azimuth Pitch and Roll sensor",
-     "url": "http://github.com/blackberry/Community-APIs-for-AIR/tree/master/BlackBerry10/SampleBPSANE",
-     "repo": "Community-APIs-for-AIR",
-     "repourl": "http://github.com/blackberry/Community-APIs-for-AIR",
-     "note": "See the (AIR,ext,pb) entry",
-     "tags": [ "air", "client", "bb10", "extension", "ext-air", "sensor" ]
- },
- "SampleBPSANE(AIR,ext,pb)": {
-     "desc": "A Sample AIR Native Extension using the BPS system that uses the Azimuth Pitch and Roll sensor",
-     "url": "http://github.com/blackberry/Community-APIs-for-AIR/tree/master/PlayBookOS/SampleBPSANE",
-     "repo": "Community-APIs-for-AIR",
-     "repourl": "http://github.com/blackberry/Community-APIs-for-AIR",
-     "warning": "used to be in Samples-for-AIR",
-     "tags": [ "air", "client", "playbook", "extension", "ext-air", "sensor" ]
- },
  "SampleBwsClient(C#)": {
      "desc": "A C# program that uses the BlackBerry Web Services (BWS) for Enterprise Administration APIs",
      "url": "https://github.com/blackberry/BWS-Samples/tree/master/SampleBwsClient.cs",
@@ -2472,46 +2442,6 @@
      "repourl": "http://github.com/blackberry/BWS-Samples",
      "tags": [ "java", "server", "bws" ]
  },
- "SampleLibrary(AIR,pb)": {
-     "desc": "Several component samples for the Adobe AIR SDK for PlayBook",
-     "url": "https://github.com/blackberry/Samples-for-AIR/tree/playbook/SampleLibrary",
-     "repo": "Samples-for-AIR",
-     "repourl": "http://github.com/blackberry/Samples-for-AIR",
-     "note": "<p>Note that there are two branches: <em>bb10</em> for BlackBerry 10 and <em>master</em> for PlayBook</p><p>Samples include Navigation Menu, Search, Download Manager, Media Playbar, Screen Animations, Cache, Scrolling Margee, Back button",
-     "tags": [ "air", "client", "playbook" ]
- },
- "ScoreloopIntegrationSample": {
-     "desc": "Integration of Scoreloop with the BPS event system",
-     "url": "https://github.com/blackberry/Scoreloop-Samples/tree/BB10.2.0/CoreNative",
-     "repo": "Scoreloop-Samples",
-     "repourl": "http://github.com/blackberry/Scoreloop-Samples",
-     "note": "<p>Two variations, with Makefile and Managed by IDE, showing integration of Scoreloop with a native App</p>",
-     "tags": [ "native", "client", "bb10", "scoreloop"]
- },
- "scoreloopintegrationsample(Cascades)": {
-     "desc": "Integration of Scoreloop with the BPS event system for Cascades Applications",
-     "url": "https://github.com/blackberry/Scoreloop-Samples/tree/BB10.2.0/Cascades",
-     "repo": "Scoreloop-Samples",
-     "repourl": "http://github.com/blackberry/Scoreloop-Samples",
-     "note": "<p>Variant to use for Applications written using the Cascades framework</p>",
-     "tags": [ "native", "client", "cascades", "bb10", "scoreloop"]
- },
-  "scoreloopintegrationsample(Cocos2d-x)": {
-     "desc": "Integration of Scoreloop with the BPS event system for Cocos2d-x Applications",
-     "url": "https://github.com/blackberry/Scoreloop-Samples/tree/BB10.2.0/Cocos2d-x",
-     "repo": "Scoreloop-Samples",
-     "repourl": "http://github.com/blackberry/Scoreloop-Samples",
-     "note": "<p>Variant to use for Applications written using the Cocos2d-x framework</p>",
-     "tags": [ "native", "client", "cocos2d-x", "bb10", "scoreloop"]
- },
- "Scoreloop(AIR,ext,bb10)": {
-      "desc": "An AIR Native Extension using the Scoreloop API's",
-      "url": "https://github.com/blackberry/Community-APIs-for-AIR/tree/master/BlackBerry10/Scoreloop",
-      "repo": "Community-APIs-for-AIR",
-      "repourl": "http://github.com/blackberry/Community-APIs-for-AIR",
-      "note": "See the (AIR,ext,pb) entry",
-      "tags": [ "air", "client", "bb10", "extension", "ext-air", "scoreloop" ]
-  },
  "scratchpad": {
      "desc": "How to use QImage and QPainter to prepare a cascades::Image",
      "url": "http://github.com/blackberry/Cascades-Samples/tree/master/scratchpad",
@@ -2555,6 +2485,13 @@
      "repo": "BB10-WebWorks-Samples",
      "repourl": "http://github.com/blackberry/BB10-WebWorks-Samples",
      "tags": [ "html5", "webworks", "bb10", "bb10 theme", "sencha", "sencha-touch" ]   
+},
+"Sencha Touch BFB Boiler Plate Sample": {
+     "desc": "This sample meant to be a starting point for any Sencha Touch developer who wishes to build apps for BlackBerry 10 with the BlackBerry 10 native look and feel",
+     "url": "https://github.com/blackberry/BB10-WebWorks-Samples/tree/master/Sencha_BFB_Sample",
+     "repo": "BB10-WebWorks-Samples",
+     "repourl": "http://github.com/blackberry/BB10-WebWorks-Samples",
+     "tags": [ "html5", "webworks", "bb10", "bb10 theme", "sencha", "sencha touch" ]   
 },
  "SendMenu(bbos,ext)": {
      "desc": "WebWorks Java-based Smartphone extension to expose the Send/Share Menu API",
@@ -2627,6 +2564,22 @@
      "repo": "BB10-WebWorks-Samples",
      "repourl": "http://github.com/blackberry/BB10-WebWorks-Samples",
      "tags": [ "html5", "webworks", "bb10", "card", "invocation" ]
+ },
+ "SimpleBtLeHrPlugin": {
+    "desc": "A simple BlackBerry 10 WebWorks plugin for accessing Bluetooth Low Enery Heart Rate Monitor Service APIs",
+    "url": "https://github.com/blackberry/WebWorks-Community-APIs/tree/master/BB10-Cordova/SimpleBtLeHrPlugin",
+    "repo": "WebWorks-Community-APIs",
+    "repourl": "http://github.com/blackberry/WebWorks-Community-APIs",
+    "note": "<p>This Bluetooth Low Energy ( Smart ) WebWorks/Cordova Plugin is intended to allow WebWorks applications to connect to devices that support the Bluetooth Low Energy Heart Rate monitor profile.</p><p>There is a document in the /documents folder describing the plugin's API from JavaScript.</p><p>It comes with a sample WebWorks application that uses this API to receive notifications of Heart Rate Measurements from a standard commercial sports heart rate monitor appliance.</p>",
+    "tags": [ "html5", "client", "bb10", "webworks", "cordova", "bluetooth", "Smart", "LE", "HRM", "Heart", "plugin" ]
+ },
+ "SimpleBtSppPlugin": {
+     "desc": "A simple BlackBerry 10 WebWorks plugin for accessing Bluetooth SPP APIs",
+     "url": "https://github.com/blackberry/WebWorks-Community-APIs/tree/master/BB10-Cordova/SimpleBtSppPlugin",
+     "repo": "WebWorks-Community-APIs",
+     "repourl": "http://github.com/blackberry/WebWorks-Community-APIs",
+     "note": "<p>This Bluetooth SPP WebWorks Plugin is intended to allow WebWorks applications to connect to devices that uses the Bluetooth SPP  (Serial Port Protocol) profile.</p><p>There is a document in the /documents folder describing the plugin's API from JavaScript.</p><p>It comes with a sample WebWorks application in the form of a simple Chat application that uses SPP to communicate between two BlackBerry 10 devices.</p>",
+     "tags": [ "html5", "client", "bb10", "webworks", "cordova", "bluetooth", "SPP", "plugin" ]
  },
  "SimpleLocationAPI": {
      "desc": "Simplified version of the Location API packages for the Java-based BlackBerry Smartphones",
@@ -2775,13 +2728,6 @@
      "repourl": "http://github.com/blackberry/Cascades-Samples",
      "note": "A simple control panel using QSettings API for persistent store",
      "tags": [ "native", "client", "bb10", "cascades", "qsettings" ]
- },
- "starshipsettings(AIR,bb10)": {
-     "desc": "A port of the StarshipSettings application from Cascades to Adobe AIR",
-     "url": "https://github.com/blackberry/Samples-for-AIR/tree/bb10/starshipsettings",
-     "repo": "Samples-for-AIR",
-     "repourl": "http://github.com/blackberry/Samples-for-AIR",
-     "tags": [ "air", "client", "bb10", "storage" ]
  },
  "Storage(bbos,ext)": {
      "desc": "WebWorks Java-based Smartphone extension to make use of the persistent storage on the device",
@@ -3007,6 +2953,13 @@
      "repourl": "https://github.com/blackberry/Core-Native-Community-Samples",
      "tags": [ "unity", "gamepad", "bb10", "sample" ]
  },
+  "UnityInvoke": {
+     "desc": "Unity sample demonstrating custom Invocation API plugin.",
+     "url": "https://github.com/blackberry/Core-Native-Community-Samples/tree/master/UnityInvoke",
+     "repo": "Core-Native-Community-Samples",
+     "repourl": "https://github.com/blackberry/Core-Native-Community-Samples",
+     "tags": [ "unity", "invoke", "bb10", "sample" ]
+ },
  "Unzip(bb10,ext)": {
      "desc": "WebWorks BB10 extension for unzipping files",
      "url": "https://github.com/blackberry/WebWorks-Community-APIs/tree/master/BB10/UNZIP",
@@ -3089,6 +3042,14 @@
      "note": "<p>There are several branches: 'ndk1' is for PlayBook 1, 'ndk2' is for PlayBook 2, 'master' is for PlayBook 2 and 'next' is for BlackBerry 10</p>",
      "tags": [ "native", "client", "bb10", "playbook", "video", "opengl" ]
  },
+ "WakeMeByBeacon": {
+     "desc": "A simple BlackBerry 10 application that demonstrates how to use iBeacon(TM) technology using a Headless Application",
+     "url": "https://github.com/blackberry/Cascades-Community-Samples/tree/master/wakemebybeacon",
+     "repo": "Cascades-Community-Samples",
+     "repourl": "http://github.com/blackberry/Cascades-Community-Samples",
+     "note": "<p>The purpose of this application is to demonstrate how to develop an application for BlackBerry 10 which is capable of running as a Headless application, detecting <a href=\"http://support.apple.com/kb/HT6048\">iBeacons</a>(TM) in the background and notifying the application's user interface component of iBeacon(TM) events. If the user interface component is not running it will be launched via the Hub.</p>",
+     "tags": [ "native", "client", "nfc", "bb10", "cascades", "beacons", "ibeacon", "IoT" ]
+ },
  "Weather": {
      "desc": "Shows how to use the HTML5 Database and the GeoLocation APIs",
      "url": "http://github.com/blackberry/WebWorks-Samples/tree/master/Weather",
@@ -3104,12 +3065,20 @@
      "note": "Shows how to use NavigationPane and TabbedPane, and how to populate a list using the AsyncDataModel and SqlDataQuery.",
      "tags": [ "native", "client", "bb10", "cascades", "navigationpane", "tabbedpane", "asyncdatamodel", "asyncheaderdatamodel" ,"json", "sqldataquery", "sqlheaderdataquery","sql"]
  },
- "weatherguesser(AIR,bb10)": {
-     "desc": "A port of the WeatherGuesser application from Cascades to Adobe AIR",
-     "url": "https://github.com/blackberry/Samples-for-AIR/tree/bb10/weatherguesser",
-     "repo": "Samples-for-AIR",
-     "repourl": "http://github.com/blackberry/Samples-for-AIR",
-     "tags": [ "air", "client", "bb10", "sql", "json" ]
+ "Web Launcher(Webworks)": {
+     "desc": "A simple web launcher that launches a url into the browser.",
+     "url": "https://github.com/blackberry/BES10-WebWorks/tree/master/webworks-launcher",
+     "repo": "BES10-WebWorks",
+     "repourl": "http://github.com/blackberry/BES10-WebWorks",
+     "tags": [ "enterprise", "launcher", "bb10", "webworks", "html5", "bes", "webclip", "url" ]
+ },
+  "WakeMeByBeacon": {
+     "desc": "A simple BlackBerry 10 WebWorks application that demonstrates how to use iBeacon(TM) technology using a Headless Application",
+     "url": "https://github.com/blackberry/BB10-WebWorks-Community-Samples/tree/master/webworksbeacon",
+     "repo": "BB10-WebWorks-Community-Samples",
+     "repourl": "http://github.com/blackberry/BB10-WebWorks-Community-Samples",
+     "note": "<p>The purpose of this application is to demonstrate how to develop a WebWorks application for BlackBerry 10 which is capable of running as a Headless application, detecting <a href=\"http://support.apple.com/kb/HT6048\">iBeacons</a>(TM) in the background and notifying the application's WebWorks user interface component of iBeacon(TM) events. If the user interface component is not running it will be launched via the Hub.</p>",
+     "tags": [ "html5", "client", "bb10", "webworks", "cordova", "headless", "beacons", "ibeacon", "IoT" ]
  },
  "WebWorks-Testing": {
      "desc": "An on-device HTML/JS/CSS code viewer for testing WebWorks apps without compiling them.",
@@ -3131,6 +3100,14 @@
      "repo": "Cascades-Samples",
      "repourl": "http://github.com/blackberry/Cascades-Samples",
      "tags": [ "native", "client", "bb10", "cascades", "mapview", "map", "pins" ]
+ },
+ "WheresMyBeacon": {
+     "desc": "A simple BlackBerry 10 application that demonstrates how to use iBeacon(TM) technology",
+     "url": "https://github.com/blackberry/Cascades-Community-Samples/tree/master/WheresMyBeacon",
+     "repo": "Cascades-Community-Samples",
+     "repourl": "http://github.com/blackberry/Cascades-Community-Samples",
+     "note": "<p>The purpose of this application is to demonstrate how to develop an application for BlackBerry 10 which is capable of decoding the advertisement data sent by an <a href=\"http://www.estimote.com\">Estimote</a> beacon; and by extension <a href=\"http://support.apple.com/kb/HT6048\">iBeacon</a>(TM)</p>.",
+     "tags": [ "native", "client", "nfc", "bb10", "cascades", "beacons", "ibeacon", "IoT" ]
  },
  "WindowCovers": {
      "desc": "How to integrate Window Covers into a BlackBerry WebWorks application for BlackBerry 10",
@@ -3161,21 +3138,6 @@
      "repo": "BB10-WebWorks-Samples",
      "repourl": "http://github.com/blackberry/BB10-WebWorks-Samples",
      "tags": [ "html5", "webworks", "bb10", "localization", "internationalization" ]
- },
- "BBM ANE(AIR,ext,bb10)": {
-     "desc": "The BBM AIR Native Extension allows AIR developers to interact with the BBM Social Platform native APIs.",
-     "url": "https://github.com/blackberry/Community-APIs-for-AIR/tree/master/BlackBerry10/bbm",
-     "repo": "Community-APIs-for-AIR",
-     "repourl": "http://github.com/blackberry/Community-APIs-for-AIR",
-     "note": "See the (AIR,ext,pb) entry",
-     "tags": [ "air", "bbm", "bb10", "extension", "ext-air" ]
- },
- "AIR Built For BlackBerry App Framework(AIR,bb10)": {
-     "desc": "The BlackBerry 10 Experience App Framework for AIR, is a application framework that makes it easy to create applications that follow the UI Guidelines.",
-     "url": "https://github.com/blackberry/Samples-for-AIR/tree/master/appframework",
-     "repo": "Samples-for-AIR",
-     "repourl": "http://github.com/blackberry/Samples-for-AIR",
-     "tags": [ "air", "client", "bb10", "framework" ]
  },
  "ExtendedSearchSample": {
      "desc": "ExtendedSearchSample is a quick app that shows you how to integrate your app with the built in Search app.",
